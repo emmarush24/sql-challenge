@@ -1,3 +1,3 @@
 # sql-challenge
-Week 9 Challenge: SQL n\
+Week 9 Challenge: SQL \
 In this challenge, I first created an ERD (entity related diagram) in order to map the relationship between the six CSV files of interest. During this process the variables were defined and the primary and foreign keys were determined for each table created. This process created a schema which was used to create the tables and variables in pgAdmin. Next the data was imported from the CSV files in the order that created the primary keys that the other tables depended on first (departments -> titles-> employees-> all other tables). Once the data was imported I utilized the left join, where, and group by functions to create varying dataframes.
